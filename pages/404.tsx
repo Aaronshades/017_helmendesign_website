@@ -1,10 +1,14 @@
 import React from "react";
+import Layout from "../components/Layout/Layout";
 
 const Custom404 = () => {
   return (
-    <div>
+    <Layout
+      pageTitle="Helmen Design PageNotFound"
+      description="Page not found."
+    >
       <h2>Ops! Our bad, this page is empty.</h2>
-    </div>
+    </Layout>
   );
 };
 
