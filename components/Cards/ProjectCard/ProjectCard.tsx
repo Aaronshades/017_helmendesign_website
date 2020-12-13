@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import styles from './ProjectCard.module.css';
 
@@ -13,9 +14,12 @@ const ProjectCard: React.FC<IProjectCard> = (props) => {
     const { imageSrc, imgAlt, cardTitle, cardDescription } = props;
     return (
         <article className={styles.container}>
-            <div className={styles.imageContainer}>
-                <img className={styles.image} src={imageSrc} alt={imgAlt} />
-            </div>
+            <Image 
+                src={imageSrc}
+                alt={imgAlt}
+                width={264}
+                height={264}
+            />
             <div className={styles.cardInfo}>
                 <h3 className={styles.cardTitle}>{cardTitle}</h3>
                 <p className={styles.cardDescription}>{cardDescription}</p>

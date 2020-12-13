@@ -8,7 +8,7 @@ const Home = ({ title, description, ...props }) => {
       <Layout pageTitle={title} description={description}>
         <h1 className={styles.title}>Helmen Design</h1>
         <div>
-          <ProjectCard imageSrc="" imgAlt="Test" cardTitle="New cards" cardDescription="Awesome cards coming here" />
+          <ProjectCard imageSrc="/images/LowF-stop.jpg" imgAlt="Test" cardTitle="New cards" cardDescription="Awesome cards coming here" />
         </div>
       </Layout>
     </div>

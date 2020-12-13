@@ -5,17 +5,10 @@
     box-shadow: 1px 1px 6px 2px #ddd;
     display: flex;
     flex-direction: column;
-}
-.imageContainer {
-    width: 264px;
-    height: 264px;
-}
-.image {
-    width: 100%;
-    height: auto;
+    background-color: rgb(58, 83, 119);
 }
 .cardInfo {
-    
+    color: #fff;
 }
 .cardInfo h3 {
     margin: 0;
