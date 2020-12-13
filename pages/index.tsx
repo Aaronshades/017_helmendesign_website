@@ -1,3 +1,4 @@
+import ProjectCard from "../components/Cards/ProjectCard/ProjectCard";
 import Layout from "../components/Layout/Layout";
 import styles from "../styles/Home.module.css";
 
@@ -5,9 +6,10 @@ const Home = ({ title, description, ...props }) => {
   return (
     <div className={styles.container}>
       <Layout pageTitle={title} description={description}>
-        <main className={styles.main}>
-          <h1 className={styles.title}>Welcome to Helmen Design</h1>
-        </main>
+        <h1 className={styles.title}>Helmen Design</h1>
+        <div>
+          <ProjectCard imageSrc="" imgAlt="Test" cardTitle="New cards" cardDescription="Awesome cards coming here" />
+        </div>
       </Layout>
     </div>
   );

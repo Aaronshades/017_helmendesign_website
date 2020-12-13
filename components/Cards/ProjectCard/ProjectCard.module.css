@@ -1,0 +1,25 @@
+.container {
+    padding: 16px;
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px 2px #ddd;
+    display: flex;
+    flex-direction: column;
+}
+.imageContainer {
+    width: 264px;
+    height: 264px;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+.cardInfo {
+    
+}
+.cardInfo h3 {
+    margin: 0;
+}
+.cardInfo p {
+    margin: 0;
+}

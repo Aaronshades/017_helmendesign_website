@@ -14,7 +14,7 @@ const Layout = ({ children, pageTitle, description, ...props }) => {
         <title>{pageTitle}</title>
       </Head>
       <div className={styles.layout}>
-        <div className={styles.content}>{children}</div>
+        <main className={styles.content}>{children}</main>
         <Footer />
       </div>
     </>
