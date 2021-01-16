@@ -19,6 +19,7 @@ const ProjectCard: React.FC<IProjectCard> = (props) => {
                 alt={imgAlt}
                 width={264}
                 height={264}
+                className={styles.image}
             />
             <div className={styles.cardInfo}>
                 <h3 className={styles.cardTitle}>{cardTitle}</h3>

@@ -1,9 +1,15 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import styles from "./Layout.module.css";
-import Footer from "../Footer/Footer";
+import styles from './Layout.module.css';
+import Footer from '../Footer/Footer';
 
-const Layout = ({ children, pageTitle, description, ...props }) => {
+interface ILayout {
+  children: React.ReactNode;
+  pageTitle: string;
+  description: string;
+}
+
+const Layout: React.FC<ILayout> = ({ children, pageTitle, description, ...props }) => {
   return (
     <>
       <Head>
