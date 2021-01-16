@@ -1,5 +1,4 @@
 .container {
-    padding: 16px;
     width: auto;
     border-radius: 4px;
     box-shadow: 1px 1px 6px 2px #ddd;
@@ -7,8 +6,12 @@
     flex-direction: column;
     background-color: rgb(58, 83, 119);
 }
+.image {
+    border-radius: 4px;
+}
 .cardInfo {
     color: #fff;
+    padding: 16px;
 }
 .cardInfo h3 {
     margin: 0;

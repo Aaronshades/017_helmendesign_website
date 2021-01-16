@@ -7,14 +7,7 @@ const Home = ({ title, description, ...props }) => {
     <div className={styles.container}>
       <Layout pageTitle={title} description={description}>
         <h1 className={styles.title}>Helmen Design</h1>
-        <div>
-          <ProjectCard
-            imageSrc="/images/LowF-stop.jpg"
-            imgAlt="Test"
-            cardTitle="New cards"
-            cardDescription="Awesome cards coming here"
-          />
-        </div>
+        <h2 style={{ textAlign: 'center' }}>More content coming soon</h2>
       </Layout>
     </div>
   );
